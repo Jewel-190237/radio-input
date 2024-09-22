@@ -1,0 +1,25 @@
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #E67529;
+  background-color: #E67529;
+}
+
+.ant-radio-wrapper:hover .ant-radio-inner {
+  border-color: #E67529 !important;
+}
+...
+
+.ant-radio-wrapper:hover .ant-radio-inner {
+  border-color: red !important;
+}
+
+.ant-radio-wrapper:hover .ant-radio-inner::after {
+  background-color: red !important;
+}
+
+.ant-radio-inner {
+  border-color: red !important; /* Default border color */
+}
+
+.ant-radio-wrapper:hover {
+  color: red !important; /* Change text color on hover */
